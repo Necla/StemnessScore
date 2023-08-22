@@ -4,10 +4,9 @@ Cancer stem cells are one of these populations and the study of cancer stem cell
 
 # Dependencies for the StemnessScore package
 
-1. R version should be version 3.5+
-2. While using R programming, we suggest you use Rstudio which is the R statistical computing environment to use. 
-3. devtools is required to install StemnessScore.
-4. StemnessScore uses these R packages so you have to install all of them. You may visit the following websites to install them easily:
+1. While using R programming, we suggest you use Rstudio which is the R statistical computing environment to use. 
+2. devtools is required to install StemnessScore.
+3. StemnessScore uses the following R packages which have to be installed before installing the StemnessScore package:
 * Iranges
 * GenomicRanges
 * readr
