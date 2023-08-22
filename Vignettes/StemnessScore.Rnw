@@ -32,12 +32,12 @@ In this study, we present how to use \Rfunction{StemnessScore} function from \Bi
 
 \packageVersion{\Sexpr{BiocStyle::pkg_ver("StemnessScore")}}
 
-%Report issues on \url{https://github.com/goknurginer/qtQDA/issues}
+%Report issues on \url{https://github.com/Necla/StemnessScore/issues}
 
 \tableofcontents
 
 \section{Introduction}
-This package contains two functions stemness score estimation and the stemness-score normalization.
+This package contains two functions stemness-score estimation and stemness-score normalization.
 
 Start with loading the \Biocpkg{StemnessScore} package.
 <<default-packages>>=
