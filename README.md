@@ -45,9 +45,11 @@ To execute the stemness.score() function within the package, you can download th
 2. Access the data directly from the "DATA" folder included within the package.
 
 
-# Reading gene list, gene importance, and genomic region data 
+# Obtaining/Reading gene list, gene importance, and genomic region data 
 
-When 
+Download genes obtained from machine learning algorithms along with their respective importance values from the "DATA" folder within the package. One can use different gene lists and their associated importance scores for downstream analyses and applications. 
+
+Obtain promoter and enhancer regions associated with the genes identified through ML algorithms using the GeneAlaCart database (https://genealacart.genecards.org/). 
 
 #  Set the File Path 
 Before running the stemness.score() function, you need to specify the file path to the folder containing your data. Let's call this folder "GBM_Data." Now, you can proceed to run the stemness.score() function on the acquired dataset. 
