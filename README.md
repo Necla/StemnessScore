@@ -36,4 +36,23 @@ library(StemnessScore)
 vignette("StemnessScore")
 ```
 
+# Tutorial
+# Downloading GBM scATAC-seq data  
+To execute the stemness.score() function within the package, you can download the GBM scATAC-seq data from either of the following sources:
+
+1. Download the data from the National Center for Biotechnology Information (NCBI) Gene Expression Omnibus (GEO) using the accession number GSE139136.
+
+2. Access the data directly from the "DATA" folder included within the package.
+
+
+# Reading gene list, gene importance, and genomic region data 
+
+
+
+Set the File Path: Before running the stemness.score() function, you need to specify the file path to the folder containing your data. Let's call this folder "GBM_Data." Now, you can proceed to run the stemness.score() function on the acquired dataset. 
+
+```
+stemness.score("GBM_Data","GSM4131776_4218_matrix.mtx.gz", "GSM4131776_4218_peaks.bed.gz", "GSM4131776_4218_barcodes.tsv.gz", "genelist.csv", "Classification_feature_Importance_RF.tsv", genomic.regions)
+
+```
  
