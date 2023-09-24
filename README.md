@@ -29,7 +29,7 @@ library(help = "StemnessScore")
 Note that devtools does not build vignettes by default. To view the vignette:
 
 ```
-devtools::install_github("Necla/Stemness-Score", build_vignettes = TRUE)
+devtools::install_github("Necla/StemnessScore", build_vignettes = FALSE)
 
 library(StemnessScore)
 
