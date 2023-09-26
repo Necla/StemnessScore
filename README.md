@@ -23,7 +23,7 @@ devtools::install_github("Necla/StemnesScoRe")
 ```
 For complete list of functions and instructions:
 ```
-library(help = "StemnessScore") 
+library(help = "StemnesScoRe") 
 ```
 
 Note that devtools does not build vignettes by default. To view the vignette:
@@ -31,9 +31,9 @@ Note that devtools does not build vignettes by default. To view the vignette:
 ```
 devtools::install_github("Necla/StemnessScore", build_vignettes = FALSE)
 
-library(StemnessScore)
+library(StemnesScoRe)
 
-vignette("StemnessScore")
+vignette("StemnesScoRe")
 ```
 
 # Tutorial
