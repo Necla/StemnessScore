@@ -1,4 +1,4 @@
-# StemnessScore: An R package to estimate the stemness score of each glioma cell using scATAC-seq data
+# StemnessScore: An R package to estimate the stemness glioma cancer cells 
 
 Cancer stem cells are one of these populations and the study of cancer stem cells, which are thought to play an active role in the growth and recurrence of tumor cells, is critical in understanding the initiation, development, and resistance to treatment of cancer. This R package was developed to estimate the stemness score specific to glioblastoma using scATAC-seq data. In this way, researchers will be able to investigate the cancer stemness of GBM cells using only accessible regions in chromatin (scATAC-seq data). 
 
