@@ -19,7 +19,7 @@ Cancer stem cells are one of these populations and the study of cancer stem cell
 ```
 library(devtools)
 
-devtools::install_github("Necla/StemnessScore")
+devtools::install_github("Necla/StemnesScoRe")
 ```
 For complete list of functions and instructions:
 ```
